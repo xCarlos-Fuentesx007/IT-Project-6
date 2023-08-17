@@ -10,12 +10,13 @@ Become familiar with the Task Manager tool in Windows Server 2019 and PowerShell
 ## Introduction and Requirements
 
 ### Steps
-1. creating and scheduling a remote task.
-(2). creating and scheduling a task that executes a PowerShell script.
-
+1. Create and schedule a remote task. The task will start Notepad running on Carlos-S19-S2 where the domain user (domainUser01) resides.
+2. Create and schedule a task that executes a PowerShell script. A local task running on Carlos-S19-S1.
 
 ### Screenshots
-1. 
+1. Creating and executing a remote scheduled task that started Notepad running on Carlos-S19-S2 when domainUser01 logs on.
+2. Creating and executing the task that opens the PowerShell command prompt and prints the date when any user logs on to the
+   Carlos-S19-S1 server.
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
